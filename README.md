@@ -33,3 +33,41 @@ Titan-Stock-Prediction/
 └── requirements.txt          # Required libraries
 ```
 
+## Project Steps
+
+## 1. Exploratory Data Analysis (EDA)
+
+- The dataset is analyzed to understand stock trends, missing values, and correlations between features.
+
+- Stock price trends over time are visualized using line plots.
+
+## 2. Data Preprocessing
+
+- The Date column is converted to a datetime format and set as the index.
+
+- Missing values are handled, and relevant features are selected for modeling.
+
+- The dataset is split into training and testing sets.
+
+## 3. Linear Regression Model
+
+- A linear regression model is trained to predict the stock's closing price based on the features.
+
+- The model is evaluated using Mean Squared Error (MSE) and R2 score metrics.
+
+- A stock price analysis chart is generated to compare actual vs. predicted values.
+
+## 4. K-Means Clustering
+
+- The dataset is scaled, and K-means clustering is applied to group the stock behavior.
+
+- The elbow method is used to find the optimal number of clusters.
+
+- The clusters are visualized to understand stock price patterns.
+
+## 5. Predicting Stock Price with Clustered Data
+
+- A new Linear Regression model is trained using clustered data to predict stock prices.
+
+- The model is evaluated using MSE and R2 score, and results are compared with the original regression model.
+
