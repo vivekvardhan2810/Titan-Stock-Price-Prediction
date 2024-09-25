@@ -81,3 +81,23 @@ Titan-Stock-Prediction/
    git clone https://github.com/yourusername/Titan-Stock-Prediction.git
    cd Titan-Stock-Prediction
    ```
+
+2. **Install required libraries**: Make sure you have Python installed. Install the necessary dependencies using:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Run the models**: To run the Linear Regression and K-Means Clustering models, execute:
+
+    ```
+    python models/linear_regression.py
+    python models/kmeans_clustering.py
+    ```
+
+4. **View the results**:
+
+ - Results, such as actual vs predicted stock prices, MSE, and R2 scores, will be displayed on the console.
+
+- Stock price trends and cluster visualizations will be generated in the form of charts.
+
