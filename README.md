@@ -126,3 +126,7 @@ This project demonstrates how both supervised and unsupervised learning techniqu
 - Apply feature engineering to enhance prediction accuracy.
 
 - Use more advanced time-series prediction models such as ARIMA or LSTM.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
