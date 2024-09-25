@@ -3,7 +3,9 @@
 ## Project Overview
 
 This project aims to predict the Titan stock price using two machine learning models:
+
 - **Linear Regression**: A predictive modeling technique to estimate future stock prices based on historical data.
+
 - **K-Means Clustering**: An unsupervised learning method that groups similar stock behavior and helps improve prediction accuracy.
 
 The project also includes Exploratory Data Analysis (EDA), data preprocessing, model evaluation, and stock price prediction.
@@ -71,3 +73,6 @@ Titan-Stock-Prediction/
 
 - The model is evaluated using MSE and R2 score, and results are compared with the original regression model.
 
+## How to Run the Project
+
+1. Clone the repository:
