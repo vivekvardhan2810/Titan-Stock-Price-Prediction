@@ -75,4 +75,9 @@ Titan-Stock-Prediction/
 
 ## How to Run the Project
 
-1. Clone the repository:
+1. **Clone the repository**:
+
+   ```
+   git clone https://github.com/yourusername/Titan-Stock-Prediction.git
+   cd Titan-Stock-Prediction
+   ```
