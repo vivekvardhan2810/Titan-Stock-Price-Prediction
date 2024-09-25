@@ -45,7 +45,7 @@ Titan-Stock-Prediction/
 
 ## 2. Data Preprocessing
 
-- The Date column is converted to a datetime format and set as the index.
+- The ```Date``` column is converted to a datetime format and set as the index.
 
 - Missing values are handled, and relevant features are selected for modeling.
 
@@ -101,3 +101,28 @@ Titan-Stock-Prediction/
 
 - Stock price trends and cluster visualizations will be generated in the form of charts.
 
+## Results
+
+- **Linear Regression**:
+
+  - The linear regression model achieves an R2 score of ```X.XX``` and a Mean Squared Error of ```Y.YY```.
+
+  - The predicted stock prices are visually close to actual stock prices.
+
+- **K-Means Clustering**:
+
+  - K-Means clustering helped group the stock data into ```k``` clusters, improving the predictive performance.
+
+  - The R2 score after clustering improved to ```Z.ZZ```, with a Mean Squared Error of ```W.WW```.
+
+## Conclusion
+
+This project demonstrates how both supervised and unsupervised learning techniques can be applied to stock price prediction. By leveraging clustering, we are able to improve the accuracy of the model, and the visualizations provide better insights into the stock behavior.
+
+## Future Work
+
+- Incorporate other machine learning models (e.g., Decision Trees, Random Forest).
+
+- Apply feature engineering to enhance prediction accuracy.
+
+- Use more advanced time-series prediction models such as ARIMA or LSTM.
